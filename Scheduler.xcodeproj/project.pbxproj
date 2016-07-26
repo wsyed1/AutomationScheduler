@@ -18,6 +18,7 @@
 		06C95D621D2AD422000332EB /* SaksBuilding.png in Resources */ = {isa = PBXBuildFile; fileRef = 06C95D611D2AD422000332EB /* SaksBuilding.png */; };
 		06C95D641D2ADB82000332EB /* HBC.png in Resources */ = {isa = PBXBuildFile; fileRef = 06C95D631D2ADB82000332EB /* HBC.png */; };
 		06C95D661D2ADEE9000332EB /* SaksHolidayWindow.png in Resources */ = {isa = PBXBuildFile; fileRef = 06C95D651D2ADEE9000332EB /* SaksHolidayWindow.png */; };
+		41EA029E1D4821D80095C2A5 /* Lord-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41EA029D1D4821D80095C2A5 /* Lord-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		06C95D611D2AD422000332EB /* SaksBuilding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SaksBuilding.png; path = ../../../Downloads/SaksBuilding.png; sourceTree = "<group>"; };
 		06C95D631D2ADB82000332EB /* HBC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HBC.png; path = ../../../Downloads/HBC.png; sourceTree = "<group>"; };
 		06C95D651D2ADEE9000332EB /* SaksHolidayWindow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SaksHolidayWindow.png; path = ../../../Downloads/SaksHolidayWindow.png; sourceTree = "<group>"; };
+		41EA029D1D4821D80095C2A5 /* Lord-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Lord-1.jpg"; path = "../../../Downloads/Lord-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				0625092B1D2A4A1800EBCD97 /* Main.storyboard */,
 				06C95D611D2AD422000332EB /* SaksBuilding.png */,
 				0625092E1D2A4A1800EBCD97 /* Assets.xcassets */,
+				41EA029D1D4821D80095C2A5 /* Lord-1.jpg */,
 				06C95D651D2ADEE9000332EB /* SaksHolidayWindow.png */,
 				06C95D631D2ADB82000332EB /* HBC.png */,
 				06C95D5F1D2AD220000332EB /* article-2725936-12D5109D000005DC-674_634x407.jpg */,
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EA029E1D4821D80095C2A5 /* Lord-1.jpg in Resources */,
 				06C95D621D2AD422000332EB /* SaksBuilding.png in Resources */,
 				062509321D2A4A1800EBCD97 /* LaunchScreen.storyboard in Resources */,
 				0625092F1D2A4A1800EBCD97 /* Assets.xcassets in Resources */,
