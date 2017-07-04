@@ -10,25 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    
+    // MARK:- IBOutlets
     
     @IBOutlet weak var SaksModuleLabel: UILabel!
     @IBOutlet weak var HomePageImage: UIImageView!
+ 
+   // MARK: - View Controller Life Cycle functions
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+   }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
   
-   @IBAction func SaksCheckoutRegButton(sender: UIButton) {
+   // MARK: - IBActions
+    
+    @IBAction func SaksCheckoutRegButton(sender: UIButton) {
        
         SaksModuleLabel.text="Module Scheduled successfully"
-        
         var url: NSURL = NSURL(string: "http://automation.digital.hbc.com/MobileApp/SaksCheckoutReg.php")!
         var request:NSMutableURLRequest = NSMutableURLRequest(URL:url)
         var bodyData = "data=something"
@@ -44,19 +45,16 @@ class ViewController: UIViewController {
                 let statusCode = HTTPResponse.statusCode
                 
                 if statusCode == 200 {
-                    // Yes, Do something.
                     print("Module Scheduled Successfully")
                 }
                 else{
-                    print("fail")
+                    print("Fail")
                 }
             }
             else{
-                print("fail")
+                print("Fail")
             }
         }
-        
-
-    }
-    }
+     }
+ }
 
